@@ -1,0 +1,116 @@
+*{
+  background-color: white;
+}
+
+.body{
+  padding: 30px;
+}
+
+.custom-nav{
+  height: 5rem;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Text{
+  height: 35px;
+  font-weight: bold;
+  padding-left: 70px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+
+.display-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  border: none;
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.card:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.carousel-inner{
+  display: flex;
+  padding-left: 4rem;
+}
+
+.carousel-img{
+  height: 12rem;
+  width: 12rem;
+  margin: 1rem;
+}
+
+.options{
+  justify-content: center;
+  gap: 20px;
+}
+
+.filter{
+  padding: 10px;
+  color: grey;
+  border: 1px solid rgb(193, 190, 190);
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.abc{
+  list-style: none;
+}
+
+.footer{
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+  background-color: #F0F0F5;
+}
+
+.footer-text{
+  font-weight: bold;
+}
+
+.footer-main{
+  padding-top: 2rem;
+}
+
+.footer-sub{
+  display: flex;
+}
+
+.shimmerCard {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  height: 200px;
+}
+
+.shimmerCardBody {
+  height: 100%;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  border-radius: 8px;
+  animation: shimmer 1.5s infinite ease-in-out;
+}
+
+@keyframes shimmer {
+  0% {
+      background-position: -200% 0;
+  }
+  100% {
+      background-position: 200% 0;
+  }
+}
